@@ -1,0 +1,29 @@
+
+.button {
+    width: 10%;
+    height: 60px;
+    margin: 5px auto;
+    color: #fff;
+    font-weight: bold;
+    background: dodgerblue;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button.current {
+    color: #000;
+    background: yellow;
+}
+
+.button.user {
+    color: #fff;
+    background: green;
+    outline: none;
+}
+
+.button.error {
+    color: #fff;
+    background: red;
+    outline: none;
+}
